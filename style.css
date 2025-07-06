@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  padding: 20px;
+  background-color: rgb(231, 231, 231);
+  line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: rgb(68, 67, 67);
+    text-align: center;
+}
+
+.user-container {
+    margin-top: 15px;
+}
+
+.user-card {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #dfdada;
+}
+
+.user-card h3 {
+    margin-top: 0;
+    color: rgb(52, 52, 105);
+}
+
+.user-card p {
+    margin: 5px 0;
+}
+
+.error-message {
+    color: red;
+    padding: 10px;
+    border: 1px solid rgb(233, 84, 14);
+    border-radius: 4px;
+    background-color: #fadbd8;
+    margin-top: 20px;
+    display: none;
+}
+
+
+
+#reloadBtn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#reloadBtn:hover {
+    background-color: royalblue;
+}
+#fetchBtn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#fetchBtn:hover {
+    background-color: royalblue;
+}
